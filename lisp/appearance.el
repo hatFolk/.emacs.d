@@ -6,3 +6,5 @@
 (menu-bar-mode -1)
 (nyan-mode 1)
 (nyan-start-animation)
+(require 'pretty-mode)
+(global-pretty-mode 1)
