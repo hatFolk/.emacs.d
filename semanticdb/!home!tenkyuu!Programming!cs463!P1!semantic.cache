@@ -1,0 +1,314 @@
+;; Object P1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "P1/"
+  :tables
+  (list
+    (semanticdb-table "Zoomer.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("javax.swing.*" include nil nil [1 22])
+            ("java.awt.image.*" include nil nil [24 48])
+            ("java.awt.*" include nil nil [49 67])
+            ("java.awt.event.*" include nil nil [68 92])
+            ("Zoomer" type
+               (:typemodifiers ("public")
+                :superclasses "JFrame"
+                :members 
+                  ( ("IMG_WIDTH" variable
+                       (:typemodifiers ("final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [138 164])
+                    ("IMG_HEIGHT" variable
+                       (:typemodifiers ("final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [169 202])
+                    ("IMG_iters" variable (:type "int") (reparse-symbol class_member_declaration) [274 294])
+                    ("IMG_c" variable (:type "Complex") (reparse-symbol class_member_declaration) [299 344])
+                    ("IMG_LOW" variable
+                       (:typemodifiers ("final")
+                        :type "Complex")
+                        (reparse-symbol class_member_declaration) [419 462])
+                    ("IMG_HIGH" variable
+                       (:typemodifiers ("final")
+                        :type "Complex")
+                        (reparse-symbol class_member_declaration) [535 577])
+                    ("fract" variable (:type "Fractal") (reparse-symbol class_member_declaration) [657 671])
+                    ("currentlyJulia" variable (:type "boolean") (reparse-symbol class_member_declaration) [700 723])
+                    ("img" variable (:type "BufferedImage") (reparse-symbol class_member_declaration) [790 808])
+                    ("quitButton" variable (:type "JButton") (reparse-symbol class_member_declaration) [849 868])
+                    ("zoomIn" variable (:type "JButton") (reparse-symbol class_member_declaration) [869 876])
+                    ("zoomOut" variable (:type "JButton") (reparse-symbol class_member_declaration) [877 885])
+                    ("reset" variable (:type "JButton") (reparse-symbol class_member_declaration) [886 892])
+                    ("viz" variable (:type "JLabel") (reparse-symbol class_member_declaration) [897 908])
+                    ("region" variable (:type "JLabel") (reparse-symbol class_member_declaration) [909 916])
+                    ("mloc" variable (:type "JLabel") (reparse-symbol class_member_declaration) [917 922])
+                    ("startMouseX" variable (:type "int") (reparse-symbol class_member_declaration) [1052 1070])
+                    ("startMouseY" variable (:type "int") (reparse-symbol class_member_declaration) [1071 1085])
+                    ("stopMouseX" variable (:type "int") (reparse-symbol class_member_declaration) [1090 1107])
+                    ("stopMouseY" variable (:type "int") (reparse-symbol class_member_declaration) [1108 1121])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [1161 1174]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1137 1340])
+                    ("Zoomer" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [1666 9742])
+                    ("colors" function
+                       (:typemodifiers ("public" "static")
+                        :type "int[]")
+                        (reparse-symbol class_member_declaration) [10068 10791])
+                    ("makeRGB" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("r" variable (:type "int") (reparse-symbol formal_parameters) [11235 11240])
+                            ("g" variable (:type "int") (reparse-symbol formal_parameters) [11242 11247])
+                            ("b" variable (:type "int") (reparse-symbol formal_parameters) [11249 11254]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [11209 11287])
+                    ("drawPicture" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [11729 12269])
+                    ("redrawPicture" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [12277 12420])
+                    ("regionString" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("f" variable (:type "Fractal") (reparse-symbol formal_parameters) [12527 12536]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [12500 12652]))                  
+                :type "class")
+                nil [94 12973]))          
+      :file "Zoomer.java"
+      :pointmax 12974
+      :fsize 14728
+      :lastmodtime '(21709 43119 755586 324000)
+      :unmatched-syntax nil)
+    (semanticdb-table "Complex.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("Complex" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("r" variable (:type "double") (reparse-symbol class_member_declaration) [27 36])
+                    ("i" variable (:type "double") (reparse-symbol class_member_declaration) [37 39])
+                    ("Complex" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("r" variable (:type "double") (reparse-symbol formal_parameters) [60 68])
+                            ("i" variable (:type "double") (reparse-symbol formal_parameters) [70 78]))                          )
+                        (reparse-symbol class_member_declaration) [45 112])
+                    ("add" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("a" variable (:type "Complex") (reparse-symbol formal_parameters) [144 153])
+                            ("b" variable (:type "Complex") (reparse-symbol formal_parameters) [155 164]))                          
+                        :type "Complex")
+                        (reparse-symbol class_member_declaration) [118 215])
+                    ("sub" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("a" variable (:type "Complex") (reparse-symbol formal_parameters) [246 255])
+                            ("b" variable (:type "Complex") (reparse-symbol formal_parameters) [257 266]))                          
+                        :type "Complex")
+                        (reparse-symbol class_member_declaration) [220 313])
+                    ("mul" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("a" variable (:type "Complex") (reparse-symbol formal_parameters) [344 353])
+                            ("b" variable (:type "Complex") (reparse-symbol formal_parameters) [355 364]))                          
+                        :type "Complex")
+                        (reparse-symbol class_member_declaration) [318 431])
+                    ("abs" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("c" variable (:type "Complex") (reparse-symbol formal_parameters) [461 470]))                          
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [436 534])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [554 751]))                  
+                :type "class")
+                nil [1 753]))          
+      :file "Complex.java"
+      :pointmax 754
+      :fsize 954
+      :lastmodtime '(21709 38680 400996 476000)
+      :unmatched-syntax nil)
+    (semanticdb-table "Fractal.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("java.io.FileWriter" include nil nil [1 27])
+            ("java.io.IOException" include nil nil [28 55])
+            ("Fractal" type
+               (:typemodifiers ("public" "abstract")
+                :members 
+                  ( ("low" variable (:type "Complex") (reparse-symbol class_member_declaration) [89 101])
+                    ("high" variable (:type "Complex") (reparse-symbol class_member_declaration) [102 107])
+                    ("nrows" variable (:type "int") (reparse-symbol class_member_declaration) [109 119])
+                    ("ncols" variable (:type "int") (reparse-symbol class_member_declaration) [120 126])
+                    ("maxIters" variable (:type "int") (reparse-symbol class_member_declaration) [128 141])
+                    ("escapeVals" variable
+                       (:dereference 2
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [143 162])
+                    ("c" variable (:type "Complex") (reparse-symbol class_member_declaration) [164 174])
+                    ("Fractal" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("low" variable (:type "Complex") (reparse-symbol formal_parameters) [192 203])
+                            ("high" variable (:type "Complex") (reparse-symbol formal_parameters) [205 217])
+                            ("nrows" variable (:type "int") (reparse-symbol formal_parameters) [219 228])
+                            ("ncols" variable (:type "int") (reparse-symbol formal_parameters) [230 239])
+                            ("maxIters" variable (:type "int") (reparse-symbol formal_parameters) [241 253])
+                            ("c" variable (:type "Complex") (reparse-symbol formal_parameters) [255 264]))                          )
+                        (reparse-symbol class_member_declaration) [177 467])
+                    ("escapeCount" function
+                       (:typemodifiers ("public" "abstract")
+                        :arguments 
+                          ( ("p" variable (:type "Complex") (reparse-symbol formal_parameters) [501 510]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [469 512])
+                    ("slopeReal" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [515 601])
+                    ("slopeImagine" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [604 693])
+                    ("escapes" function
+                       (:typemodifiers ("public")
+                        :type "int[][]")
+                        (reparse-symbol class_member_declaration) [696 990])
+                    ("write" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("filename" variable (:type "String") (reparse-symbol formal_parameters) [1011 1026]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [993 1440])
+                    ("zoom" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("factor" variable (:type "double") (reparse-symbol formal_parameters) [1460 1473]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1443 1798])
+                    ("updateDimensions" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("low" variable (:type "Complex") (reparse-symbol formal_parameters) [1830 1841])
+                            ("high" variable (:type "Complex") (reparse-symbol formal_parameters) [1843 1855]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1801 1929])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1943 2199]))                  
+                :type "class")
+                nil [57 2201]))          
+      :file "Fractal.java"
+      :pointmax 2202
+      :fsize 2201
+      :lastmodtime '(21713 32874 884855 595000)
+      :unmatched-syntax nil)
+    (semanticdb-table "Mandelbrot.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("Mandelbrot" type
+               (:typemodifiers ("public")
+                :superclasses "Fractal"
+                :members 
+                  ( ("Mandelbrot" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("low" variable (:type "Complex") (reparse-symbol formal_parameters) [66 77])
+                            ("high" variable (:type "Complex") (reparse-symbol formal_parameters) [79 91])
+                            ("nrows" variable (:type "int") (reparse-symbol formal_parameters) [93 102])
+                            ("ncols" variable (:type "int") (reparse-symbol formal_parameters) [104 113])
+                            ("maxIters" variable (:type "int") (reparse-symbol formal_parameters) [115 127]))                          )
+                        (reparse-symbol class_member_declaration) [48 239])
+                    ("escapeCount" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("p" variable (:type "Complex") (reparse-symbol formal_parameters) [268 277]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [245 519])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [539 604])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [634 647]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [610 1217]))                  
+                :type "class")
+                nil [1 1224]))          
+      :file "Mandelbrot.java"
+      :pointmax 1225
+      :fsize 1224
+      :lastmodtime '(21709 38687 15928 532000)
+      :unmatched-syntax nil)
+    (semanticdb-table "Julia.java"
+      :major-mode 'jde-mode
+      :tags 
+        '( ("Julia" type
+               (:typemodifiers ("public")
+                :superclasses "Fractal"
+                :members 
+                  ( ("Julia" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("low" variable (:type "Complex") (reparse-symbol formal_parameters) [54 65])
+                            ("high" variable (:type "Complex") (reparse-symbol formal_parameters) [67 79])
+                            ("nrows" variable (:type "int") (reparse-symbol formal_parameters) [81 90])
+                            ("ncols" variable (:type "int") (reparse-symbol formal_parameters) [92 101])
+                            ("maxIters" variable (:type "int") (reparse-symbol formal_parameters) [103 115])
+                            ("c" variable (:type "Complex") (reparse-symbol formal_parameters) [117 126]))                          )
+                        (reparse-symbol class_member_declaration) [41 187])
+                    ("escapeCount" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("p" variable (:type "Complex") (reparse-symbol formal_parameters) [216 225]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [193 467])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [487 551])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [582 595]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [558 1262]))                  
+                :type "class")
+                nil [1 1264]))          
+      :file "Julia.java"
+      :pointmax 1265
+      :fsize 1264
+      :lastmodtime '(21713 33236 953099 759000)
+      :unmatched-syntax nil))
+  :file "!home!tenkyuu!Programming!cs463!P1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

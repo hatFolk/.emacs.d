@@ -1,7 +1,7 @@
 ;;; vimrc-mode-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
 ;;;### (autoloads (vimrc-mode) "vimrc-mode" "vimrc-mode.el" (21697
 ;;;;;;  13703 282431 446000))

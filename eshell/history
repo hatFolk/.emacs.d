@@ -4,3 +4,68 @@ clear
 ls
 ?
 help
+cabal
+cabal install hunit
+cabal update
+cabap install cabal-install
+cabal install cabal-install
+exit
+ls
+mv mips2_calculator.asm  mips2_calculator_hoyledinh.asm
+quit
+exit
+ls
+git pull
+ls
+git pull
+git stash
+git pull
+git pullgit pull
+git pull
+Unpacking objects: 100% (6/6), done.git add -A .
+git add -A .
+git commit -am "Fix spacing"
+git push origin master
+Writing objects: 100% (7/7), 6.85 KiB | 0 bytes/s, done.git
+git pull
+git stash
+git pull
+cat .gitignore 
+git pull
+git add -A .
+git commit -am "2 stuff"
+git pull
+git merge
+git pull
+git pull
+sudo emerge meld
+git mergetool
+git pull
+git commit -am "Fix merge"
+git push
+git pull
+ls
+cd
+ls
+cd Programming/cs465/
+git pull
+ls
+git add -A .
+git push
+git pull
+git add -A .
+git commit -am "Answered first two questions"
+git push origin master
+python3
+ls
+git add -A .
+git commit -am "Finished"
+git push origin master
+git add -A .
+git commit -am "Hi"
+git push origin master
+git pull
+ls
+nyan
+quit
+exit

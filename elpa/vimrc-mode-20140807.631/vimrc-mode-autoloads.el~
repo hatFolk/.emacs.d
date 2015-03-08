@@ -1,7 +1,7 @@
 ;;; vimrc-mode-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
 (provide 'vimrc-mode-autoloads)
 ;; Local Variables:

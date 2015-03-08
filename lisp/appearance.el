@@ -1,4 +1,4 @@
-(load-theme 'solarized-light t)
+(load-theme 'sanityinc-solarized-dark t)
 (set-default-font "Bitstream Vera Sans Mono-10")
 (set-fontset-font (frame-parameter nil 'font)
 		  'han '("cwTeXHeiBold" . "unicode-bmp"))
@@ -6,3 +6,5 @@
 (menu-bar-mode -1)
 (nyan-mode 1)
 (nyan-start-animation)
+(require 'pretty-mode)
+(global-pretty-mode 1)
