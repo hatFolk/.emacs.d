@@ -1,0 +1,21 @@
+;;; vimrc-mode-autoloads.el --- automatically extracted autoloads
+;;
+;;; Code:
+<<<<<<< HEAD
+
+
+(provide 'vimrc-mode-autoloads)
+=======
+(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+
+>>>>>>> 691b186d411eaee245fc0d99ab5a10a260c71181
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; no-update-autoloads: t
+<<<<<<< HEAD
+;; coding: utf-8
+=======
+>>>>>>> 691b186d411eaee245fc0d99ab5a10a260c71181
+;; End:
+;;; vimrc-mode-autoloads.el ends here
