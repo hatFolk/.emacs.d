@@ -69,3 +69,33 @@ ls
 nyan
 quit
 exit
+ls
+cd .emacs.d/
+ls
+git add -A .
+git commit -am "I have added a lot of stuff"
+git push origin master
+ls
+cd ..
+ls
+ls
+cp hw6.tex hw6_ans.tex
+ls
+ls
+cd EVE/
+cd
+cd Engh/
+ls
+mv * old_essays/
+ls
+cp old_essays/DisciplineAwareness.tex ../ResearchProposal.tex
+ls
+mv ../ResearchProposal.tex .
+ls
+ls
+clear
+ls
+clear
+ls
+detex ResearchProposal.tex
+detex ResearchProposal.tex | wc
