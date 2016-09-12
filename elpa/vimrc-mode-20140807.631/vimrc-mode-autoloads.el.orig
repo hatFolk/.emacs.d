@@ -1,45 +1,0 @@
-;;; vimrc-mode-autoloads.el --- automatically extracted autoloads
-;;
-;;; Code:
-<<<<<<< HEAD
-
-
-;;;### (autoloads (vimrc-mode) "vimrc-mode" "vimrc-mode.el" (21697
-;;;;;;  13703 282431 446000))
-=======
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
-
-;;;### (autoloads nil "vimrc-mode" "vimrc-mode.el" (21709 46732 703769
-;;;;;;  107000))
->>>>>>> 691b186d411eaee245fc0d99ab5a10a260c71181
-;;; Generated autoloads from vimrc-mode.el
- (add-to-list 'auto-mode-alist '("\\.vim\\'" . vimrc-mode))
- (add-to-list 'auto-mode-alist '("[._]?g?vimrc\\'" . vimrc-mode))
- (add-to-list 'auto-mode-alist '("\\.exrc\\'" . vimrc-mode))
-
-(autoload 'vimrc-mode "vimrc-mode" "\
-Major mode for editing `vimrc', `xxx.vim' and `.exrc' configuration files.
-
-\(fn)" t nil)
-
-;;;***
-
-<<<<<<< HEAD
-;;;### (autoloads nil nil ("vimrc-mode-pkg.el") (21697 13703 495487
-;;;;;;  894000))
-
-;;;***
-
-(provide 'vimrc-mode-autoloads)
-=======
->>>>>>> 691b186d411eaee245fc0d99ab5a10a260c71181
-;; Local Variables:
-;; version-control: never
-;; no-byte-compile: t
-;; no-update-autoloads: t
-<<<<<<< HEAD
-;; coding: utf-8
-=======
->>>>>>> 691b186d411eaee245fc0d99ab5a10a260c71181
-;; End:
-;;; vimrc-mode-autoloads.el ends here

@@ -2,6 +2,6 @@
 ;(require 'slime)
 (require 'slime-autoloads)
 (add-hook 'lisp-mode-hook (slime-mode t))
-(setq inferior-lisp-program "/usr/bin/sbcl")
+(setq inferior-lisp-program "sbcl")
 (slime-setup '(slime-fancy))
 ;(setq slime-contribs '(slime-fancy))

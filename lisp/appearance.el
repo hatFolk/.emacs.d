@@ -1,5 +1,5 @@
 (load-theme 'sanityinc-solarized-dark t)
-(set-default-font "Bitstream Vera Sans Mono-10")
+;(set-default-font "Bitstream Vera Sans Mono-10")
 (set-fontset-font (frame-parameter nil 'font)
 		  'han '("cwTeXHeiBold" . "unicode-bmp"))
 (tool-bar-mode -1)

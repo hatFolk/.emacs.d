@@ -99,3 +99,4 @@ clear
 ls
 detex ResearchProposal.tex
 detex ResearchProposal.tex | wc
+ping google.com
